@@ -1,0 +1,17 @@
+def count_vowels(sentence):
+    vowel="AEIOUaeiou"
+    count=0
+    for char in sentence:
+      if char in vowel:
+         count+= 1
+    return count
+
+
+
+
+sentence = input("Enter the string:")
+count_vowels(sentence)
+print(f"The number of vowels in '{sentence}':  {count_vowels(sentence)}")
+
+Enter the string:Izza Maryam Nashim
+The number of vowels in 'Izza Maryam Nashim':  6
