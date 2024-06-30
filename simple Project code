@@ -1,0 +1,21 @@
+//Calculator 
+
+def calculator():
+    op   = input("Choose an operator: +, -, *, / : ")
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the Second Number : "))
+    
+    if(op == '+'):
+     print(f"The sum is:{num1+num2}")
+    
+    elif(op == '-'):
+     print(f"The Difference is : {num1 - num2}")
+    
+    elif(op == '*'):
+     print(f"The Multiplication value is : {num1 * num2}")
+    
+    else:
+     print(f"The Division value is : {num1 / num2}")
+    
+
+calculator()
