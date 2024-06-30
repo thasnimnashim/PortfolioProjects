@@ -1,0 +1,24 @@
+def fib(x):
+     if x == 0:
+       return 0
+     elif x == 1:
+       return 1
+     else:
+       return fib(x-2) + fib(x-1)
+
+x= int(input("Enter an input"))
+fib(x)
+
+Enter an input6
+8
+
+#for x in range(x):
+ # print(fib(x))
+Enter an input7
+0
+1
+1
+2
+3
+5
+8
